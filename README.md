@@ -1,5 +1,11 @@
 # Catalog-Assignment-Solution
 
+Steps to run the code:
+1. In your IDE, add the Classpath of lib folder.
+2. Run the java code for test case 1, and change the string value(in parenthesis after "new File") in the line 16th to testCase2:
+       Line 16th in Poly_Soln.java
+       JsonNode rootNode = mapper.readTree(new File("testCase1.json"));
+
 Steps to solve the Problem:
 1. We will use the following formula to compute the Constant:
     c=  (−r_1 )(−r_2 )⋯(−r_k )
